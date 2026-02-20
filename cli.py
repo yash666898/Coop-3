@@ -1,4 +1,4 @@
-# cli.py
+# li.py
 import sys
 from core import load_and_resize_image, ansi_color, luminance_map, edge_map, select_char
 from orchestrator import generate_and_select_best, rows_to_ansi
@@ -113,3 +113,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
